@@ -1,0 +1,7 @@
+.header-nav__link-item {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+.header-nav__link-item:hover {
+    text-decoration: underline;
+}

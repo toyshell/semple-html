@@ -1,24 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital@1&display=swap');
+*/
+selector {
+    transition-property: var(--accent-color);
+
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* 
-
-selector {
-    property:value
-    property:value2;
-}
-
-*/
-
 :root {
-
+    font-family:'Open Sans', sans-serif;
+    --main-text-color: rgb(193, 214, 39);
+    --accent-color: rgb(59, 39, 211);
 }
-
 h1 {
-color: #22ffd3;
-margin:0;
-padding:0;
+    color: rgb(25, 214, 69);
 }
